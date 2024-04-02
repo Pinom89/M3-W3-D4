@@ -1,0 +1,197 @@
+
+ @-webkit-keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}@keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}
+
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+ .text-flicker-in-glow{-webkit-animation:text-flicker-in-glow 4s linear both;animation:text-flicker-in-glow 4s linear both}
+ 
+ /*  Nav Bar */
+
+.navdx{
+    border: transparent;
+    border-radius: 70px;
+    max-height: 35px;
+    max-width: 35px;
+    margin: 0, 10px;
+}
+
+.campanella{
+    max-height: 70px;
+    max-width: 60px;
+    }
+
+.logo{
+    max-width: 35px;
+    max-height: 35px;
+            }
+     
+/*  jumbotron */      
+
+.jumbotron{
+    margin: 0;
+    min-width:100%;
+    background-color:#7550FE;
+
+}
+
+.jumbocolor{
+    background-color:#7550FE;
+}
+
+.jumbocolor h1{
+    color:white;
+}
+
+.jumbocolor p{
+    color: #B9A4FF;
+}
+
+/* hero */
+
+.camera, .people, .clock {
+    background-color: #FFEEDA;
+    color: #CF883E;
+    border-radius: 50%;
+    font-size: 13pt;
+    text-align: center;
+    align-items: center;
+    
+}
+
+/* inserito hover su classe delle icone per ingrandirle allo sfioramento */
+
+.feather{
+    transition: width 0.8s cubic-bezier(.74,.11,.06,1.2), height  0.8s cubic-bezier(.74,.11,.06,1.2);
+}
+
+
+.feather:hover {
+    font-size: 30px;
+    color: #7550FE;
+    width: 40px;
+    height:40px;
+    
+}
+
+
+
+.spazio{
+    width:100%;
+    height: 80px;
+    height: 90px;
+    background-color: #F5F4F8;
+}
+
+.colorfooter, .color{
+    background-color:#F5F4F8;
+}
+
+/* colore sfondo di tutti i caroselli */
+section{
+    background-color: #F5F4F8;
+}
+
+/* carosello */
+.imgcard{
+    border: transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.stella{
+    color: #FFB45B;
+}
+
+.avatar {
+    max-width: 20px;
+    max-height:20px;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.colcard {
+    background-color: #FFFFFF;
+    border: transparent;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+
+.bor-avatar{
+    border-bottom:solid 1px #ECEBF1;
+}
+
+.coloricond{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    color: red !important;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+.coloricons{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    color: red !important;
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+/* esercizio */
+
+  /* lo scopo di queste classi è rendere le stelle rosse a gialle */ 
+
+.fa-star.fa-regular.fa-star.stella {
+    color: #FFB45B;
+    transition: color 1.5s cubic-bezier(0,1.56,.44,.47) ;
+}
+
+.fa-star.fa-regular.fa-star.stella:hover{
+   color: red;
+}
+
+/*
+.star {
+    transition: background-color 1s, cubic-bezier(0,1.56,1,-0.13) ;
+} 
+.star:hover{
+    background-color: #FF0088
+}
+*/ 
+/* fine */
+
+
+.fa-regular.fa-bookmark {
+    color: #ccc; /* Colore di default */
+    transition: color 0.3s, cubic-bezier(.24, .51, .29, .75); /* Transizione */
+   } 
+
+.fa-regular.fa-bookmark:hover{
+    color: #ADABBA; /* Colore grigio al passaggio del mouse */
+    background-color: #ADABBA;/* Sfondo grigio al passaggio del mouse sull'icona */
+}
+ 
+.zoom {
+   transition: opacity 5s;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+    opacity: 0.8; 
+    border-radius: 20px;
+    }
+
+/*  footer */
+
+.color-footer {
+   background-color: rgba(0, 0, 0, 0.05);
+}
+
